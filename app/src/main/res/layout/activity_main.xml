@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fc2"
+    tools:context="com.example.rakesh.tictoc.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:rotation="-40"
+        android:text="Tic \nToc"
+        android:textColor="#333"
+        android:textSize="120dp"
+        android:paddingBottom="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINGLE PLAYER"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:onClick="singleplayer"
+        android:id="@+id/sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTI PLAYER"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:onClick="multiplayer"
+        android:id="@+id/Mp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:onClick="exit"
+        android:id="@+id/exit"/>
+
+
+
+</LinearLayout>
